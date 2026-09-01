@@ -17,8 +17,6 @@ A lightweight **Kafka-inspired message broker built in Go** to understand core c
 
 ## Architecture
 
-![Architecture](docs/images/architecture.png)
-
 ```text
 Producer → Broker → Topic → Log
                     ↓
