@@ -65,37 +65,6 @@ Offset     Key          Value
 
 The offset allows consumers to resume reading from a particular position.
 
----
-
-## 📁 Project Structure
-
-```text
-.
-├── cmd/
-│   └── kafkaclone/
-│       └── main.go
-│
-├── internal/
-│   ├── broker/
-│   │   ├── broker.go
-│   │   └── ...
-│   │
-│   ├── producer/
-│   │   └── producer.go
-│   │
-│   └── consumer/
-│       └── consumer.go
-│
-├── data/
-│   └── <topic>.jsonl
-│
-├── go.mod
-├── go.sum
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
